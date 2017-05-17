@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup_roundButt">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jCB_enhaced" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jCB_transparent" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jRB_rounded" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jRB_butt" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jL_gifWidth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_gifWidth" min="-2" pref="74" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jL_lineWidth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_lineWidth" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jL_gifHeight" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jSpinner_gifHeight" min="-2" pref="73" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jTB_gifLockProportion" min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_gifUnit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCoB_gifUnits" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jL_dashLength" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_dashLenght" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCB_enhaced" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCB_transparent" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_rounded" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_butt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTB_gifLockProportion" alignment="0" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="jSpinner_gifWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_gifHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSpinner_gifHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCoB_gifUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_gifUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_gifWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_lineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jSpinner_lineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_dashLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jSpinner_dashLenght" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jL_gifWidth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Width"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_gifWidth">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="600.0" minimum="1.0" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_gifWidthStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_gifHeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_gifHeight">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="400.0" minimum="1.0" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_gifHeightStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jTB_gifLockProportion">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/lock-icon.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jTB_gifLockProportionItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_gifUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="unit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jCoB_gifUnits">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="px"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCB_enhaced">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enhanced"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCB_transparent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transparent"/>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;transparent&lt;/b&gt; instructs the driver to make the background color transparent.&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_lineWidth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Linewidth"/>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The &lt;b&gt;linewidth&lt;/b&gt; and &lt;b&gt;dashlength&lt;/b&gt; options are scaling factors that affect all&lt;br/&gt;&#xa; lines drawn, i.e. they are multiplied by values requested in various drawing commands.&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_lineWidth">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The &lt;b&gt;linewidth&lt;/b&gt; and &lt;b&gt;dashlength&lt;/b&gt; options are scaling factors that affect all&lt;br/&gt;&#xa; lines drawn, i.e. they are multiplied by values requested in various drawing commands.&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_dashLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dash length"/>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The &lt;b&gt;linewidth&lt;/b&gt; and &lt;b&gt;dashlength&lt;/b&gt; options are scaling factors that affect all&lt;br/&gt;&#xa; lines drawn, i.e. they are multiplied by values requested in various drawing commands.&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_dashLenght">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The &lt;b&gt;linewidth&lt;/b&gt; and &lt;b&gt;dashlength&lt;/b&gt; options are scaling factors that affect all&lt;br/&gt;&#xa; lines drawn, i.e. they are multiplied by values requested in various drawing commands.&lt;br/&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRB_rounded">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup_roundButt"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Rounded"/>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Rounded/Butt&lt;/b&gt; instructs the driver to use a line drawing method that does&lt;br&gt;&#xa; not overshoot the desired end point of a line.&lt;br&gt;&#xa;This setting is only applicable for line widths greater than 1.&lt;br&gt;&#xa;This setting is most useful when drawing horizontal or vertical lines.&lt;br&gt;&#xa;&lt;/html&gt;&#xa;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRB_butt">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup_roundButt"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Butt"/>
+        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Rounded/Butt&lt;/b&gt; instructs the driver to use a line drawing method that does&lt;br&gt;&#xa; not overshoot the desired end point of a line.&lt;br&gt;&#xa;This setting is only applicable for line widths greater than 1.&lt;br&gt;&#xa;This setting is most useful when drawing horizontal or vertical lines.&lt;br&gt;&#xa;&lt;/html&gt;&#xa;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

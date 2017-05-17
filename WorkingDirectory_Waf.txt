@@ -1,0 +1,20 @@
+//If yu need to change the directory to which output traces are saved, use this:
+
+//*********************************Created by me on 18Jan2017******************************************************************************
+Working Directory
+
+Waf needs to run from its location at the top of the ns-3 tree. This becomes the working directory where output files will be written. But what if you want to keep those ouf to the ns-3 source tree? Use the --cwd argument:
+
+$ ./waf --cwd=...
+
+It may be more convenient to start with your working directory where you want the output files, in which case a little indirection can help:
+
+$ function waff {
+    CWD="$PWD"
+    cd $NS3DIR >/dev/null
+    ./waf --cwd="$CWD" $*
+    cd - >/dev/null
+  }
+
+This embellishment of the previous version saves the current working directory, cd‘s to the Waf directory, then instructs Waf to change the working directory back to the saved current working directory before running the program.
+

@@ -1,0 +1,235 @@
+/* This file is part of TraceMetrics
+ *
+ * TraceMetrics is a trace file analyzer for Network Simulator 3 (www.nsnam.org).
+ * The goal is to calculate useful metrics for research and performance measurement.
+ * URL: www.tracemetrics.net
+ *
+ * Copyright (C) 2012  Luiz Felipe Zafra Saggioro
+ * Copyright (C) 2012  Flavio Barbieri Gonzaga
+ * Copyright (C) 2012  Reuel Ramos Ribeiro
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+package analyzer.gui.ExportGraphics.Terminal;
+
+import analyzer.controller.Utils;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.Gif;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.HTML5;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.Jpeg;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.Png;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.Postscript;
+import analyzer.gui.ExportGraphics.Terminal.ConfiguratorTabs.TabConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.CanvasConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.EmptyConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.EpsConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.GifConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.JpegConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.PngConfiguration;
+import analyzer.gui.ExportGraphics.Terminal.TerminalConfigurations.TerminalConfiguration;
+import java.awt.Point;
+import java.awt.Toolkit;
+import java.io.File;
+import java.util.EnumMap;
+import javax.swing.JPanel;
+
+/**
+ * Window that make easy configuration for each type of gnuplot terminals.
+ *
+ * @since 1.2.0
+ */
+public class TerminalConfigurator extends javax.swing.JFrame {
+
+    /**
+     * EnumMap that will store all terminals configurations.
+     *
+     * To add a new terminal, see the constructor.
+     */
+    private EnumMap<TerminalTypes, TerminalConfiguration> configurations = new EnumMap<TerminalTypes, TerminalConfiguration>(TerminalTypes.class);
+
+    public TerminalConfigurator(File file) {
+        initComponents();
+        Point location = Utils.getCentralCoords(Toolkit.getDefaultToolkit().getScreenSize(), this.getBounds());
+        this.setLocation(location);
+
+
+        //--------------------------------------------------------------------//
+        //-------> For add a new terminal configuration type, please, follow
+        //-----       the below pattern.
+        //-------> NOTE: You need to appropriately add a new terminal type on
+        //-----       'TerminalTypes' class. Follow the model contained on class
+        //--------------------------------------------------------------------//
+        configurations.put(TerminalTypes.POSTSCRIPT, new EpsConfiguration());
+        configurations.put(TerminalTypes.CANVAS, new CanvasConfiguration());
+        configurations.put(TerminalTypes.GIF, new GifConfiguration());
+        configurations.put(TerminalTypes.JPEG, new JpegConfiguration());
+        configurations.put(TerminalTypes.PNG, new PngConfiguration());
+
+        //--------------------------------------------------------------------//
+        //--------> Auto set all configurations to defaults values
+        //--------> NOTE: Don't need modifications.
+        //--------------------------------------------------------------------//
+        for (TerminalConfiguration tc : configurations.values()) {
+            tc.setDefault();
+        }
+
+        //--------------------------------------------------------------------//
+        //--------> Add each tab for configurator
+        //--------------------------------------------------------------------//
+        jTP_outputs.addTab(Png.class.getSimpleName(), new Png(this));
+        jTP_outputs.addTab(Jpeg.class.getSimpleName(), new Jpeg(this));
+        jTP_outputs.addTab(Gif.class.getSimpleName(), new Gif(this));
+        jTP_outputs.addTab(HTML5.class.getSimpleName(), new HTML5(this));
+        jTP_outputs.addTab(Postscript.class.getSimpleName(), new Postscript(this));
+        
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jTP_outputs = new javax.swing.JTabbedPane();
+        jB_OK = new javax.swing.JButton();
+        jL_outputHelpIcon = new javax.swing.JLabel();
+        jB_cancel = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Global outputs options");
+
+        jB_OK.setText("OK");
+        jB_OK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jB_OKActionPerformed(evt);
+            }
+        });
+
+        jL_outputHelpIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/analyzer/gui/images/system_help.png"))); // NOI18N
+        jL_outputHelpIcon.setToolTipText("<html>\nNot all terminals necessarily need an interface for settings.<br/>\nOnly terminals with more range of options and complexities are implemented here.<br/>\n</html>");
+        jL_outputHelpIcon.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
+        jB_cancel.setText("Cancel");
+        jB_cancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jB_cancelActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 225, Short.MAX_VALUE)
+                        .addComponent(jL_outputHelpIcon)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jB_cancel)
+                        .addGap(18, 18, 18)
+                        .addComponent(jB_OK, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTP_outputs))
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTP_outputs, javax.swing.GroupLayout.DEFAULT_SIZE, 222, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jL_outputHelpIcon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jB_OK)
+                        .addComponent(jB_cancel)))
+                .addContainerGap())
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    public TerminalConfiguration getTerminalConfiguration(TerminalTypes type) {
+        if (configurations.containsKey(type)) {
+            return configurations.get(type);
+        } else {
+            return new EmptyConfiguration();
+        }
+    }
+
+    private void jB_OKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB_OKActionPerformed
+        //--------------------------------------------------------------------//
+        //--------> Update all configurations according to the options chosen
+        //--------> NOTE: Don't need modifications.
+        //--------------------------------------------------------------------//
+        for (int cont = jTP_outputs.getTabCount() - 1; cont >= 0; cont--) {
+            JPanel tp = (JPanel) jTP_outputs.getComponentAt(cont);
+            if (tp instanceof TabConfiguration) {
+                TabConfiguration tc = (TabConfiguration) tp;
+                tc.configureTerminal();
+            }
+
+        }
+        dispose();
+    }//GEN-LAST:event_jB_OKActionPerformed
+
+    private void jB_cancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jB_cancelActionPerformed
+        dispose();
+    }//GEN-LAST:event_jB_cancelActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(TerminalConfigurator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(TerminalConfigurator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(TerminalConfigurator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(TerminalConfigurator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new TerminalConfigurator(new File("/home/reuel/empty.txt")).setVisible(true);
+            }
+        });
+    }
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jB_OK;
+    private javax.swing.JButton jB_cancel;
+    private javax.swing.JLabel jL_outputHelpIcon;
+    private javax.swing.JTabbedPane jTP_outputs;
+    // End of variables declaration//GEN-END:variables
+}

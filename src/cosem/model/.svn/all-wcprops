@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/22/trunk/model
+END
+udp-cosem-client.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/trunk/model/udp-cosem-client.h
+END
+cosem-ap-server.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/model/cosem-ap-server.h
+END
+cosem-al-client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/13/trunk/model/cosem-al-client.cc
+END
+cosem-al-client.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/model/cosem-al-client.h
+END
+cosem-ap-client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/20/trunk/model/cosem-ap-client.cc
+END
+cosem-ap-client.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/16/trunk/model/cosem-ap-client.h
+END
+dr-app.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/22/trunk/model/dr-app.cc
+END
+dr-app.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/21/trunk/model/dr-app.h
+END
+mdm-app.cc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/model/mdm-app.cc
+END
+dr-header.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/model/dr-header.cc
+END
+cosem-header.cc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/18/trunk/model/cosem-header.cc
+END
+dr-header.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/21/trunk/model/dr-header.h
+END
+mdm-app.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/model/mdm-app.h
+END
+cosem-header.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/model/cosem-header.h
+END
+udp-cosem-server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/14/trunk/model/udp-cosem-server.cc
+END
+udp-cosem-server.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/trunk/model/udp-cosem-server.h
+END
+dc-app.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/model/dc-app.cc
+END
+cosem-al-server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/13/trunk/model/cosem-al-server.cc
+END
+dc-app.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/21/trunk/model/dc-app.h
+END
+cosem-al-server.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/model/cosem-al-server.h
+END
+cosem-ap-server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/11/trunk/model/cosem-ap-server.cc
+END
+udp-cosem-client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16/trunk/model/udp-cosem-client.cc
+END

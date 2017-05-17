@@ -1,0 +1,8 @@
+Agora é possível ordenar as colunas de exibição de fluxo, resultado de Throug/Good-put e Little.
+É possível iniciar o programa com o parâmetro --no-splash. Auto explicativo :)
+Aparentemente, as variáveis "static ArrayList<DefaultTableModel> model" e "ArrayList<String> files = new ArrayList<String>()" não estavão sendo usadas nunca. Foram comentadas.
+Todas as classes que utilizam o método getInstance() tiveram seus construtores definidos como privados.
+Implementada uma janela para reportar bugs. Suporta várias instâncias e possui suporte a apresentar informações extras ao usuário (consultar construtores);
+Interface auxiliar para gerar gráficos para o GNU-plot, com suporte a gráficos de linhas e histogramas.
+Suporte a previsualização dos dados, caso tenha o gnuplot instalado.
+Ao acontecer alguns tipos de exceções no programa, abrir o bug report automaticamente

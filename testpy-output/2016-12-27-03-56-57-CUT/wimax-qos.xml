@@ -1,0 +1,15 @@
+<Test>
+  <Name>wimax-qos</Name>
+  <Result>PASS</Result>
+  <Time real="1.410" user="1.350" system="0.020"/>
+  <Test>
+    <Name>Test the service flow scheduling types</Name>
+    <Result>PASS</Result>
+    <Time real="0.850" user="0.820" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>Test the 2 different schedulers</Name>
+    <Result>PASS</Result>
+    <Time real="0.560" user="0.530" system="0.010"/>
+  </Test>
+</Test>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jCB_pngInterlace" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCB_pngTransparency" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jCB_pngTrueColor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jL_pngWdth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_pngWidth" min="-2" pref="66" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jL_pngHeight" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_pngHeight" min="-2" pref="67" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTB_pngLockProportion" min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_pngUnit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCoB_pngUnits" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="8" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jCB_pngTransparency" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCB_pngTrueColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCB_pngInterlace" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="jL_pngWdth" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jSpinner_pngWidth" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_pngHeight" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jSpinner_pngHeight" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTB_pngLockProportion" alignment="2" min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="jL_pngUnit" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCoB_pngUnits" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jL_pngWdth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Width"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCB_pngInterlace">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Use interlace"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jCoB_pngUnits">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="px"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_pngUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="unit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jTB_pngLockProportion">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="rolloverEnabled" type="boolean" value="true"/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/lock-icon.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jTB_pngLockProportionItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_pngWidth">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="640.0" minimum="10.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_pngWidthStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCB_pngTransparency">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Use transparency"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_pngHeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCB_pngTrueColor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Use trueColor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_pngHeight">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="10" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="400.0" minimum="10.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_pngHeightStateChanged"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

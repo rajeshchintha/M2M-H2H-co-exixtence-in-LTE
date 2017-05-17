@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bg_epsOrientation">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bg_epsColor">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jL_epsOrientation" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_epsColor" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="192" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jRB_epsWithColor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRB_epsLandscape" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_epsWidth" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_epsWidth" min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_epsHeight" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSpinner_epsHeight" min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jRB_epsMonoChrome" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_epsPortrait" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jTB_epsLockProportion" min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jL_epsUnit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jCoB_epsUnits" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jRB_epsLandscape" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_epsPortrait" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jL_epsOrientation" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jL_epsColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_epsWithColor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRB_epsMonoChrome" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="jSpinner_epsWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_epsWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_epsHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSpinner_epsHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCoB_epsUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jL_epsUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jTB_epsLockProportion" alignment="1" min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JRadioButton" name="jRB_epsLandscape">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bg_epsOrientation"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Landscape"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRB_epsPortrait">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bg_epsOrientation"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Portrait"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_epsOrientation">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Orientation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_epsColor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRB_epsWithColor">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bg_epsColor"/>
+        </Property>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="With color"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRB_epsMonoChrome">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="bg_epsColor"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Monochrome"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_epsWidth">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="10.0" minimum="1.0" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_epsWidthStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_epsWidth">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Width"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_epsHeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="jSpinner_epsHeight">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="7.0" minimum="1.0" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSpinner_epsHeightStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jCoB_epsUnits">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Inches"/>
+            <StringItem index="1" value="CMs"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCoB_epsUnitsItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jL_epsUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="unit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jTB_epsLockProportion">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="rolloverEnabled" type="boolean" value="true"/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/unlock-icon.png"/>
+        </Property>
+        <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/analyzer/gui/images/lock-icon.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jTB_epsLockProportionItemStateChanged"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

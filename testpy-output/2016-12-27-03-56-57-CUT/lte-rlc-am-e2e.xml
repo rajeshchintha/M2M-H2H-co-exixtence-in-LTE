@@ -1,0 +1,15 @@
+<Test>
+  <Name>lte-rlc-am-e2e</Name>
+  <Result>PASS</Result>
+  <Time real="2.360" user="2.320" system="0.030"/>
+  <Test>
+    <Name> losses = 5%; run = 1111; continuous SDU arrival</Name>
+    <Result>PASS</Result>
+    <Time real="0.210" user="0.210" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> losses = 5%; run = 1111; bulk SDU arrival</Name>
+    <Result>PASS</Result>
+    <Time real="2.150" user="2.110" system="0.030"/>
+  </Test>
+</Test>

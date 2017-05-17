@@ -1,0 +1,2340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="bg_outputFormat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="ExportGraphic_buttonGroup_outputFormat"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bg_streamToPlot">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bg_histogramStyle">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bg_histogramFill">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="bg_legendPosition">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[930, 660]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[930, 660]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="componentResized" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="formComponentResized"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jSP_plotsTypes" pref="442" max="32767" attributes="0"/>
+                  <Component id="jSP_generalOptions" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSP_smoothAndStyles" pref="467" max="32767" attributes="0"/>
+                  <Component id="jP_graphicView" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jSP_generalOptions" max="32767" attributes="0"/>
+                  <Component id="jSP_smoothAndStyles" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      <Component id="jP_graphicView" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jSP_plotsTypes" pref="424" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jSP_generalOptions">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="General options">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jP_generalOptions">
+          <Properties>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[428, 248]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jL_xAxisLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jL_yAxisLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jL_titleLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jL_OutputFormat" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jCoB_output" min="-2" pref="91" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      <Component id="jL_outputHelpIcon" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jCB_autoGenerateOutput" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jB_outputSetupOptions" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTF_Xaxis" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jTF_Yaxis" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jTF_TitleInput" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jL_StreamsToPlot" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="jRB_Delay" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                  <Component id="jRB_PDV" min="-2" pref="57" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jRB_IPDV" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jP_gridConfigs" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jL_titleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTF_TitleInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jL_xAxisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTF_Xaxis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jL_yAxisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTF_Yaxis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jCB_autoGenerateOutput" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jB_outputSetupOptions" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCoB_output" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jL_OutputFormat" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jL_outputHelpIcon" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jP_gridConfigs" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jRB_IPDV" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRB_PDV" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRB_Delay" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jL_StreamsToPlot" alignment="0" min="-2" pref="27" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jL_titleLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Title"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as a title of image at the top.&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_xAxisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="X-axis label"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as label of the X axis&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_yAxisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Y-axis label"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as label of the Y axis&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_OutputFormat">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Output format"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Indicates what will be output, but not how will be saved by TraceMetrics&lt;b&gt;!&lt;/b&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTF_TitleInput">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Stream &lt;n&gt;"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as a title of image at the top.&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTF_Xaxis">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Elapsed time"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as label of the X axis&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTF_Yaxis">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delay variation"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;The text that will be shown as label of the Y axis&#xa;&lt;/html&gt;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_StreamsToPlot">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Data to plot"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRB_IPDV">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bg_streamToPlot"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="IPDV"/>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jRB_IPDVItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRB_Delay">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bg_streamToPlot"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Delay"/>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jRB_DelayItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRB_PDV">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="bg_streamToPlot"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="PDV"/>
+              </Properties>
+              <Events>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jRB_PDVItemStateChanged"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jP_gridConfigs">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder roundedCorners="true">
+                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jCB_enableGrid" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="jCB_gridOnX" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jCB_gridOnY" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="jL_GridLineWidth" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSpinner_gridLineWidth" min="-2" pref="44" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jCB_enableGrid" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="jCB_gridOnX" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCB_gridOnY" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_GridLineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner_gridLineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="jCB_enableGrid">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Enable grid"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_enableGridItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_gridOnX">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="X grid"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_gridOnXItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_gridOnY">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Y grid"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_gridOnYItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_GridLineWidth">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="grid line width"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_gridLineWidth">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1.0" maximum="5.0" minimum="0.2" numberType="java.lang.Float" stepSize="0.2" type="number"/>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jB_outputSetupOptions">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/analyzer/gui/images/gear.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Configure output settings"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_outputSetupOptionsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCB_autoGenerateOutput">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Auto generate output"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;If gnuplot are installed on your computer and selected terminal output is supported,&lt;br/&gt;&#xa;tracemetrics will try to  plot your script and save on the same folder of script.&#xa;&lt;/html&gt;"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCoB_output">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel(TerminalTypes.values())" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jCoB_outputMouseEntered"/>
+                <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCoB_outputItemStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_outputHelpIcon">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Dialog" size="12" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/analyzer/gui/images/system_help.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jL_outputHelpIconMouseEntered"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jSP_plotsTypes">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Type of graphic">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="jTP_plotsTypes">
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jTP_plotsTypesStateChanged"/>
+          </Events>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jP_Lines">
+              <Properties>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[456, 345]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Lines">
+                    <Property name="tabTitle" type="java.lang.String" value="Lines"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jP_Logscale" max="32767" attributes="0"/>
+                              <Component id="jP_XRange" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jP_YRange" max="32767" attributes="0"/>
+                              <Component id="jB_GenerateLineScript" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="jP_Logscale" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="jP_XRange" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="jP_YRange" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jB_GenerateLineScript" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jB_GenerateLineScript">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/analyzer/gui/images/document_save.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Generate GNU-Plot Script"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_GenerateLineScriptActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jP_XRange">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jL_MinimumX" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCoB_minimumX" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jL_maximumX" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCoB_maximumX" min="-2" max="-2" attributes="2"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jCB_Steps_X_Tics" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jSpinner_customXtics" min="-2" pref="54" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jL_xAxes" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCB_autoRangeX" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jL_xAxes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCB_autoRangeX" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="jL_MinimumX" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_minimumX" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_maximumX" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jL_maximumX" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCB_Steps_X_Tics" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_customXtics" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JComboBox" name="jCoB_maximumX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCoB_maximumXItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_MinimumX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Minimum x"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_minimumX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCoB_minimumXItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_maximumX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Maximum x"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_Steps_X_Tics">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Custom steps between x tics"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_Steps_X_TicsItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_xAxes">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="X Range"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinner_customXtics">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                          <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Float" stepSize="0.1" type="number"/>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_autoRangeX">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value="Autorange"/>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Gives a larger space in the vicinity of the terminal,&lt;br&gt;&#xa;to better accommodate the points in left and right.&#xa;&lt;/html&gt;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jP_YRange">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jL_minimumY" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCoB_minimumY" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="jL_maximumY" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCoB_maximumY" min="-2" pref="67" max="-2" attributes="2"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jL_yAxes" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCB_autoRangeY" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jCB_Steps_Y_Tics" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jSpinner_customYtics" min="-2" pref="53" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jL_yAxes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCB_autoRangeY" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="jL_maximumY" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_minimumY" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jL_minimumY" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_maximumY" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCB_Steps_Y_Tics" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_customYtics" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jL_yAxes">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Y Range"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_minimumY">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Minimum y"/>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;TraceMetrics will try to select the correct value&lt;br&gt;&#xa;that be abrange all your data.&lt;br&gt;&#xa;&lt;i&gt;If you know the correctly range, deselect the &lt;b&gt;autorange&lt;/b&gt; checkbox&lt;/i&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_minimumY">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="true"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="1">
+                            <StringItem index="0" value="0"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;TraceMetrics will try to select the correct value&lt;br&gt;&#xa;that be abrange all your data.&lt;br&gt;&#xa;&lt;i&gt;If you know the correctly range, deselect the &lt;b&gt;autorange&lt;/b&gt; checkbox&lt;/i&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="preferredSize" source="jCoB_minimumX" sourcePath="${preferredSize}" target="jCoB_minimumY" targetPath="preferredSize" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_maximumY">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Maximum y"/>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;TraceMetrics will try to select the correct value&lt;br&gt;&#xa;that be abrange all your data.&lt;br&gt;&#xa;&lt;i&gt;If you know the correctly range, deselect the &lt;b&gt;autorange&lt;/b&gt; checkbox&lt;/i&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_maximumY">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="true"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="1">
+                            <StringItem index="0" value="100"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;TraceMetrics will try to select the correct value&lt;br&gt;&#xa;that be abrange all your data.&lt;br&gt;&#xa;&lt;i&gt;If you know the correctly range, deselect the &lt;b&gt;autorange&lt;/b&gt; checkbox&lt;/i&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_Steps_Y_Tics">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Custom steps between y tics"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_Steps_Y_TicsItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinner_customYtics">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                          <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Float" stepSize="0.1" type="number"/>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_autoRangeY">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value="Autorange"/>
+                        <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Delegate to gnuplot the function of adjust your graph.&lt;br&gt;&#xa;The border&apos;s data will be ploted on the margin of output image.&lt;br&gt;&#xa;&lt;b&gt;Is recomendade use this option&lt;/b&gt;&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_autoRangeYItemStateChanged"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jP_Logscale">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jCB_EnableLogScale" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jCB_XlogBase" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCoB_XlogBase" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jCB_YlogBase" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCoB_YlogBase" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jL_logScaleOnAxis" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                                      <Component id="jL_warningIPDV" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jL_logScaleOnAxis" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Component id="jL_warningIPDV" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jCB_EnableLogScale" min="-2" pref="22" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCB_YlogBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCB_XlogBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_YlogBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCoB_XlogBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JCheckBox" name="jCB_EnableLogScale">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Enable logaritmic scale using custom base"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_EnableLogScaleItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_YlogBase">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Y log scale base"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_YlogBaseItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JCheckBox" name="jCB_XlogBase">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="X log scale base"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_XlogBaseItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_logScaleOnAxis">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Log scale on axis"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_YlogBase">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="e"/>
+                            <StringItem index="1" value="2"/>
+                            <StringItem index="2" value="10"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_XlogBase">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="e"/>
+                            <StringItem index="1" value="2"/>
+                            <StringItem index="2" value="10"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_warningIPDV">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="10" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="0" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="0"/>
+                        <Property name="text" type="java.lang.String" value="Log scale won&apos;t accept negatives values. IPDV it has."/>
+                        <Property name="toolTipText" type="java.lang.String" value="IPDV has negatives values, and a log scale on Y won&apos;t accept negative values!"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="jL_warningIPDV.setVisible(false);"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jP_Histogram">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Histogram">
+                    <Property name="tabTitle" type="java.lang.String" value="Histogram"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jP_histogramIntervals" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jCB_histogramSteps_Y_Tics" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_histogramCustomYtics" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jP_histogramLogscale" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jB_GenerateHistogramScript" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jP_histogramIntervals" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jP_histogramLogscale" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jSpinner_histogramCustomYtics" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCB_histogramSteps_Y_Tics" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="jB_GenerateHistogramScript" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jB_GenerateHistogramScript">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/analyzer/gui/images/document_save.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Generate GNU-Plot Script"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_GenerateHistogramScriptActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jP_histogramIntervals">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jL_intervalsHistogram" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="jB_addInterval" max="32767" attributes="0"/>
+                                              <Component id="jB_clearAllIntervals" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="jB_delInterval" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jL_beginInterval" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jTF_beginHistogramInverval" min="-2" pref="116" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jL_endInterval" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jTF_endHistogramInverval" min="-2" pref="124" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jScrollPane_intervalsList" pref="354" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              <Component id="jL_intervalsHistogram" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jL_beginInterval" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jL_endInterval" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTF_beginHistogramInverval" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTF_endHistogramInverval" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jB_addInterval" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jB_delInterval" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jB_clearAllIntervals" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane_intervalsList" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="jB_delInterval">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/analyzer/gui/images/list_remove.png"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Remove"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_delIntervalActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane_intervalsList">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JList" name="jList_intervals">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Dialog" size="12" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                              <StringArray count="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JLabel" name="jL_beginInterval">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Begin"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_intervalsHistogram">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Intervals (seconds)"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jB_addInterval">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/analyzer/gui/images/list_add.png"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Add"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_addIntervalActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_endInterval">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="End"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTF_beginHistogramInverval">
+                      <Events>
+                        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTF_beginHistogramInvervalKeyTyped"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTF_endHistogramInverval">
+                      <Events>
+                        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTF_endHistogramInvervalKeyTyped"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jB_clearAllIntervals">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Remove All"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_clearAllIntervalsActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jP_histogramLogscale">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jCB_histogramEnableLogScale" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jCoB_histogramYlogBase" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jL_histogramLogScale" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="jL_histogramLogScale" min="-2" pref="17" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCB_histogramEnableLogScale" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="jCoB_histogramYlogBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JCheckBox" name="jCB_histogramEnableLogScale">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Enable logaritmic scale using custom base"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_histogramEnableLogScaleItemStateChanged"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_histogramLogScale">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Log scale on y axis"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="jCoB_histogramYlogBase">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="3">
+                            <StringItem index="0" value="e"/>
+                            <StringItem index="1" value="2"/>
+                            <StringItem index="2" value="10"/>
+                          </StringArray>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JCheckBox" name="jCB_histogramSteps_Y_Tics">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Custom steps between y tics"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_histogramSteps_Y_TicsItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_histogramCustomYtics">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Float" stepSize="0.1" type="number"/>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jSP_smoothAndStyles">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Smooth, styles and other options">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[462, 209]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="JTP_smoothAndStyles">
+          <Events>
+            <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="JTP_smoothAndStylesStateChanged"/>
+          </Events>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jP_smoothAndStyleforLines">
+              <Properties>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[440, 209]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Lines">
+                    <Property name="tabTitle" type="java.lang.String" value="Lines"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jCB_rotateXlabel" max="32767" attributes="0"/>
+                                      <Component id="jCB_timeOnXaxis" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jL_decimalSignToShow" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jSpinner_rotateXLabel" max="32767" attributes="0"/>
+                                      <Component id="jCoB_timeUnit" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jCoB_decimalSign" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jL_plotStyle" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jCoB_simpleStylesType" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="75" max="32767" attributes="0"/>
+                                  <Component id="jL_smoothToUse" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jCoB_smoothTypes" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jP_widths" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jCoB_smoothTypes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCoB_simpleStylesType" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_smoothToUse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_plotStyle" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="jCB_rotateXlabel" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner_rotateXLabel" alignment="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="jL_decimalSignToShow" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCoB_decimalSign" alignment="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jCoB_timeUnit" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCB_timeOnXaxis" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jP_widths" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="jCoB_smoothTypes">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="&lt;nothing&gt;"/>
+                        <StringItem index="1" value="Cubic splines"/>
+                        <StringItem index="2" value="Belzier curve&apos;s"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Bezier&lt;/b&gt; - Calculates and plots a B&#xe9;zier approximation of order n (where n is the number of data points).&lt;br&gt;&#xa;The curve is guaranteed to pass through the first and last data point exactly,&lt;br&gt;&#xa;but in general won&#x2019;t pass through any of the internal points. The resulting curve usually appears particularly smooth.&lt;br&gt;&#xa;&lt;br&gt;&#xa;&lt;b&gt;Cubicsplines&lt;/b&gt; - Calculates natural cubic splines to the result and plots these.&lt;br&gt;&#xa;The resulting curve passes exactly through all data points.&lt;br&gt;&#xa;As opposed to the B&#xe9;zier curve (which is defined for the entire data set), splines are defined locally&lt;br&gt;&#xa; (between any two consecutive data points) and joined smoothly at the points.&lt;br&gt;&#xa;They&#x2019;re therefore most suited for data that&#x2019;s already quite smooth.&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jCoB_simpleStylesType">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="6">
+                        <StringItem index="0" value="points"/>
+                        <StringItem index="1" value="lines"/>
+                        <StringItem index="2" value="linespoints"/>
+                        <StringItem index="3" value="dots"/>
+                        <StringItem index="4" value="impulses"/>
+                        <StringItem index="5" value="boxes"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;b&gt;Points&lt;/b&gt; The points style displays a small symbol at each point.&lt;br&gt;&#xa;&lt;b&gt;Lines&lt;/b&gt; The lines style connects adjacent points with straight line segments.&lt;br&gt;&#xa;&lt;b&gt;Lines and Points&lt;/b&gt; The linespoints style connects adjacent points with straight line segments and then goes back to draw a small symbol at each point.&lt;br&gt;&#xa;&lt;b&gt;Dots&lt;/b&gt; The dots style plots a tiny dot at each point; this is useful for scatter plots with &lt;i&gt;many&lt;/i&gt; points.&lt;br&gt;&#xa;&lt;b&gt;Impulses&lt;/b&gt; The impulses style displays a vertical line from y=0 to the y value of each point.Note that the y values may be negative.&lt;br&gt;&#xa;&lt;b&gt;Boxes&lt;/b&gt; It draws a box centered about the given x coordinate that extends from the x axis (not from the graph border) to the given y coordinate.&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCoB_simpleStylesTypeItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_rotateXlabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Rotate x-tics label (1&#xba; ~ 90&#xba;)"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;When the xtics is too near, is recommended rotate by some angle to not pollute the graph&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_rotateXlabelItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_smoothToUse">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Smooth to use"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_plotStyle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Plot style"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jCoB_decimalSign">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="."/>
+                        <StringItem index="1" value=","/>
+                        <StringItem index="2" value="&lt;other&gt;"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Tell to GNUpot which char is used as decimal sign to plot image.&lt;br&gt;&#xa;&lt;b&gt;&lt;h4&gt;This not affect the decimal sign of data file!&lt;/h4&gt;&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCoB_decimalSignActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_decimalSignToShow">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Decimal sign to be show on plot"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Tell to GNUpot which char is used as decimal sign to plot image.&lt;br&gt;&#xa;&lt;b&gt;&lt;h4&gt;This not affect the decimal sign of data file!&lt;/h4&gt;&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jCoB_timeUnit">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="Seconds"/>
+                        <StringItem index="1" value="Minutes"/>
+                        <StringItem index="2" value="Hours"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Select a most suitable unit to represent your data  which belong to the x-axis&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_rotateXLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="45" maximum="90" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;When the xtics is too near, is recommended rotate by some angle to not pollute the graph&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jP_widths">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                        <TitledBorder title="Widths">
+                          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                            <LineBorder roundedCorners="true">
+                              <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                            </LineBorder>
+                          </Border>
+                        </TitledBorder>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jL_lineWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Component id="jSpinner_lineWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="jL_boxWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jSpinner_boxWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
+                              <Component id="jL_pointWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jSpinner_pointWidth" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jL_lineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jL_boxWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jL_pointWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_pointWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_boxWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jSpinner_lineWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="jL_lineWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Line"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_boxWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Box"/>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jL_pointWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Point"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinner_pointWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                          <SpinnerModel initial="1.0" minimum="0.2" numberType="java.lang.Float" stepSize="0.2" type="number"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinner_boxWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                          <SpinnerModel initial="1.0" minimum="0.1" numberType="java.lang.Float" stepSize="0.1" type="number"/>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JSpinner" name="jSpinner_lineWidth">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                          <SpinnerModel initial="1.0" minimum="0.2" numberType="java.lang.Float" stepSize="0.2" type="number"/>
+                        </Property>
+                        <Property name="enabled" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JCheckBox" name="jCB_timeOnXaxis">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Time unit on x-axis"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_timeOnXaxisItemStateChanged"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jP_smoothAndStyleforHistogram">
+              <Properties>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[440, 209]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Histogram">
+                    <Property name="tabTitle" type="java.lang.String" value="Histogram"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jL_histogramStyle" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jL_fillUsing" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRB_histogramFillPatterns" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRB_clusteredHistogram" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="jCB_boxesWithoutBorder" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jRB_histogramFillSolid" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jRB_stackedHistogram" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jL_histogramGapSize" max="32767" attributes="0"/>
+                                      <Component id="jL_histogramBoxWidth" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSpinner_histogramBoxWidth" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jSpinner_histogramGapSize" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jCB_histogramRotateXlabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jL_histogramDecimalSignToShow" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jSpinner_histogramRotateXLabel" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jCoB_histogramDecimalSign" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRB_clusteredHistogram" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRB_stackedHistogram" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_histogramStyle" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner_histogramGapSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_histogramGapSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jRB_histogramFillPatterns" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jRB_histogramFillSolid" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_histogramBoxWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner_histogramBoxWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_fillUsing" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Component id="jCB_boxesWithoutBorder" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jCB_histogramRotateXlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner_histogramRotateXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jCoB_histogramDecimalSign" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jL_histogramDecimalSignToShow" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="26" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JRadioButton" name="jRB_clusteredHistogram">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="bg_histogramStyle"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Clustered"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRB_stackedHistogram">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="bg_histogramStyle"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Stacked"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jRB_stackedHistogramItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_histogramStyle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Histogram Style"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_histogramGapSize">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="2.0" minimum="0.2" numberType="java.lang.Double" stepSize="0.2" type="number"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_histogramGapSize">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Gap size"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_fillUsing">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Fill boxes using"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRB_histogramFillPatterns">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="bg_histogramFill"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Patterns"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="jRB_histogramFillSolid">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="bg_histogramFill"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Solid colors"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_histogramBoxWidth">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Box width"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_histogramBoxWidth">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1.0" maximum="1.0" minimum="0.1" numberType="java.lang.Double" stepSize="0.1" type="number"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_histogramRotateXlabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Rotate x-tics label (1&#xba; ~ 90&#xba;)"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;When the xtics is too near, is recommended rotate by some angle to not pollute the graph&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jCB_histogramRotateXlabelItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinner_histogramRotateXLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="45" maximum="90" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;When the xtics is too near, is recommended rotate by some angle to not pollute the graph&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jCoB_histogramDecimalSign">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="."/>
+                        <StringItem index="1" value=","/>
+                        <StringItem index="2" value="&lt;other&gt;"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Tell to GNUpot which char is used as decimal sign to plot image.&lt;br&gt;&#xa;&lt;b&gt;&lt;h4&gt;This not affect the decimal sign of data file!&lt;/h4&gt;&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCoB_histogramDecimalSignActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jL_histogramDecimalSignToShow">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Decimal sign to be show on plot"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Tell to GNUpot which char is used as decimal sign to plot image.&lt;br&gt;&#xa;&lt;b&gt;&lt;h4&gt;This not affect the decimal sign of data file!&lt;/h4&gt;&lt;/b&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_boxesWithoutBorder">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Boxes without borders"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jP_legends">
+              <Properties>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[440, 209]"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Legends">
+                    <Property name="tabTitle" type="java.lang.String" value="Legends"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jL_legendsLegendPosition" alignment="0" min="-2" pref="159" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jCB_legendsOpaque" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCB_legendsOutsideLegends" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCB_legendsFillWithBorder" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCB_legendsHorizontalAlignment" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="161" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jL_legendsLegendPosition" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jCB_legendsOutsideLegends" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jCB_legendsFillWithBorder" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jCB_legendsHorizontalAlignment" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jCB_legendsOpaque" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="46" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="jCB_legendsOutsideLegends">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Outside legends"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Put all legends outside from plot area.&lt;br&gt;&#xa;Otherwise, the legends are put inside area.&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_legendsFillWithBorder">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Filled with border"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Fill the legends texts with borders.&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jTB_legendLeftCenter" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendCenterCenter" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendRightCenter" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jTB_legendLeftTop" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendCenterTop" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendRightTop" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jTB_legendLeftBottom" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendCenterBottom" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="jTB_legendRightBottom" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTB_legendLeftTop" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendCenterTop" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendRightTop" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTB_legendLeftCenter" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendCenterCenter" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendRightCenter" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTB_legendLeftBottom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendCenterBottom" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB_legendRightBottom" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendLeftBottom">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendRightBottom">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendRightTop">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendCenterBottom">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendCenterTop">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendLeftTop">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendLeftCenter">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendCenterCenter">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="jTB_legendRightCenter">
+                      <Properties>
+                        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                          <ComponentRef name="bg_legendPosition"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="12" style="0"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value=" "/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jL_legendsLegendPosition">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="Legend position"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_legendsHorizontalAlignment">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Horizontal alignment"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;By default, vertical alignment are setted, this means that the legends&lt;br&gt;&#xa; and the square area of plot are placed like columns.&lt;br&gt;&#xa; If horizontal alignment are setted, these are placed like lines. &lt;br&gt;&#xa;Case left-center, right-center or center-center position are selected, differences are not perceived.&lt;br&gt;&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="jCB_legendsOpaque">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Dialog" size="12" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Opaque"/>
+                    <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Causes the legend area box to be generated after all the plots, forcing him to stay on top.&#xa;&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jP_graphicView">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Graphic view (require GNUPlot installed)">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLP_graphicView" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLP_graphicView" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JLayeredPane" name="jLP_graphicView">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jB_makePreview">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Make a view"/>
+                <Property name="toolTipText" type="java.lang.String" value="&lt;html&gt;&#xa;Make a view based on configures choosen,&lt;br&gt;&#xa;except on output terminals settings.&lt;br&gt;&#xa;&lt;i&gt;It&apos;s just a view&lt;/i&gt;&#xa;&lt;/html&gt;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jB_makePreviewActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="18"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="20" y="20" width="150" height="-1" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jL_preview">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="fe" green="fe" red="fe" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/analyzer/gui/images/bar_chart.png"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[2000, 2000]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[300, 300]"/>
+                </Property>
+                <Property name="opaque" type="boolean" value="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[580, 360]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jL_previewMouseClicked"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JLayeredPaneSupportLayout$JLayeredPaneConstraintsDescription">
+                  <JLayeredPaneConstraints x="0" y="-1" width="520" height="350" layer="0" position="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

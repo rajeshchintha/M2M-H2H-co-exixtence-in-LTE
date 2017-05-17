@@ -1,0 +1,14 @@
+======= Bugs and smalls fixs
+
+    * Serious bug in the ConvertData method of the Utils class, which was returning incorrect values
+    * The last directory opened in a tracemetrics session, is the default local
+for open a new file
+    * The selection window files only allows trace files to be opened
+    * The Main tab of the form are locked while the analysis is performed.
+
+======= New Features
+
+    * Icons
+    * SplashScreen at lauching
+    * About windows added in menu "Help"
+    * A link to tracemetrics website in the menu "Help"

@@ -1,0 +1,8 @@
+#! /usr/bin/env python
+
+# Programs that are runnable.
+ns3_runnable_programs = ['build/scratch/ns3.26-lena-intercell-interference-debug', 'build/scratch/ns3.26-backgroundTraffic-debug', 'build/scratch/ns3.26-bg_sm_traffic_COSEM-debug', 'build/scratch/ns3.26-bg_sm_traffic_COSEM_DC-debug', 'build/scratch/ns3.26-bg_sm_traffic_COSEM_Debug-debug', 'build/scratch/ns3.26-bg_sm_traffic_MMS-debug', 'build/scratch/ns3.26-bg_sm_traffic_MMS_Debug-debug', 'build/scratch/ns3.26-cosemcsma-debug', 'build/scratch/ns3.26-cosemdccsma-debug', 'build/scratch/ns3.26-cosemdccsma251-debug', 'build/scratch/ns3.26-cosemDcWifiLte-debug', 'build/scratch/ns3.26-cosemLte-debug', 'build/scratch/ns3.26-cosemWifiCsma-debug', 'build/scratch/ns3.26-cosemWifiLte_2DC-debug', 'build/scratch/ns3.26-cosemWifiLte_5DC-debug', 'build/scratch/ns3.26-example-ping-lr-wpan-debug', 'build/scratch/ns3.26-example-sixlowpan-debug', 'build/scratch/ns3.26-first-debug', 'build/scratch/ns3.26-http-debug', 'build/scratch/ns3.26-lena-dual-stripe-debug', 'build/scratch/ns3.26-lena-simple-epc-emu-debug', 'build/scratch/ns3.26-lena-simple-epc-debug', 'build/scratch/ns3.26-lr-wpan-data-debug', 'build/scratch/ns3.26-lr-wpan-phy-test-debug', 'build/scratch/ns3.26-lte-BgNodes-debug', 'build/scratch/ns3.26-lte-example-sim-debug', 'build/scratch/ns3.26-mmsLte-debug', 'build/scratch/ns3.26-mmsp2p-debug', 'build/scratch/ns3.26-scratch-simulator-subdir-debug', 'build/scratch/ns3.26-scratch-simulator-debug', 'build/scratch/ns3.26-second-debug', 'build/scratch/subdir/ns3.26-subdir-debug', 'build/scratch/ns3.26-tap-csma-virtual-machine-debug', 'build/scratch/ns3.26-third-debug', 'build/scratch/ns3.26-udp-echo-debug', 'build/scratch/ns3.26-wifi-adhoc-debug']
+
+# Scripts that are runnable.
+ns3_runnable_scripts = []
+

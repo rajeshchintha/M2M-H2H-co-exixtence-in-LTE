@@ -1,0 +1,15 @@
+<Test>
+  <Name>error-model</Name>
+  <Result>PASS</Result>
+  <Time real="0.410" user="0.410" system="0.000"/>
+  <Test>
+    <Name>ErrorModel and PhyRxDrop trace for SimpleNetDevice</Name>
+    <Result>PASS</Result>
+    <Time real="0.200" user="0.200" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>ErrorModel and PhyRxDrop trace for SimpleNetDevice</Name>
+    <Result>PASS</Result>
+    <Time real="0.210" user="0.210" system="0.000"/>
+  </Test>
+</Test>
